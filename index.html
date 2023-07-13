@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            kanjiintelligentsystemltd
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+<div class="nav-bar">
+    
+    <ul>
+       
+        <li><a href="kanjiintelligentsystemltd.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="service.html">Our services</a></li>
+        <li><a href="#"><img src="image/logo3.png" style="width: 100px;height: 100px;margin-left: -250px; margin-top: -40px;"></a></li>
+
+    </ul>
+
+</div>
+<div class="body">
+    <div class="body-container">
+        <h2>WELCOME TO KANJI INTELLIGENT SYSTEM LTD</h2>
+        <P>Kanji Intelligent System LTD was established on 28th February 2022.<br>
+        The company provide innovative IT solution provider,<br> 
+        specializing in web/android application development, data science and<br>
+         networking programs. Kanji Intelligent System LTD is always ready to <br>
+          give its customers/IT students maximum support services. 
+    
+    
+        </P>
+    </div>
+    
+</div>
+<div class="service">
+    <div class="service-container">
+        <h3>PROGRAMS OFFERES</h3>
+    <div class="program1">
+        <h4>Web/Adroid Appliation Development</h4>
+<img src="image/android application.jpeg" alt="" class="zoom-image">
+        <P>Kangji Intelligent System LTD also offeres<br>
+             Web/Android Application Development<br>
+              programming Skills Aquisition</P>
+    </div>
+    <div class="program2">
+        <h4>Data Science </h4>
+<img src="image/datascience.jpg" class="zoom-image">
+        <p>Kangji Intelligent System LTD also<br>
+             offers Data Science Programming Skills Aquisition</p>
+    </div>
+    <div class="program3">
+        <h4>Networking</h4>
+<img src="image/networking.jpeg" alt="" class="zoom-image">
+        <p>Kangji Intelligent System LTD also Offers Networking programs</p>
+    </div>
+
+    </div>
+    </div>
+    <div class="footer">
+        <H5>FOR ENQUERIES</H5>
+        
+            <img src="image/phone.png" alt="" class="img">
+             09097940378/
+             07065068413
+            
+         <a href="#">
+            <img src="image/gmail.png" alt="" class="img">
+            kanjiintelligentsystemltd@gmail.com
+        </a> 
+        
+            <a href="#">
+            <img src="image/facebook.png" alt="" class="img">
+            <label for="">facebook</label>
+            </a>
+            <a href="#"><img src="image/whatsap.png" alt="" class="img">
+            <label for="">whatsap</label></a>
+            <a href="#"><img src="image/tweet.png" alt="" class="img">
+            <label for="">tweeter</label></a>
+            <a href="#"><img src="image/instagram.png" alt="" class="img">
+            <label for="">instagram</label></a>
+        <p>@kanjiintelligentsystemltd 2023</p>
+
+        <marquee class="thanks">
+            <p>>>> Kainji Intelligent System LTD website is still under
+                construction but will be completed in due time>>>>>
+                 Thanks for visiting our website</p>
+            </marquee>
+    </div>
+<script>
+    const slideshow = document.querySelector('.body');
+    const images = [
+    'image/img1.jpg', 
+    'image/img2.jpg',
+     'image/img3.jpg', 
+     'image/img4.jpg',
+      'image/img5.jpg',
+      'image/imag6.jpg'];
+   let currentImageIndex=0;
+    function changeBackgroundImage(){
+        slideshow.style.backgroundImage = `url(${images[currentImageIndex]})`;
+        currentImageIndex = (currentImageIndex +1)% images.length;
+
+    }
+setInterval(changeBackgroundImage, 5000);
+changeBackgroundImage()
+</script>
+    </body>
+</html>
