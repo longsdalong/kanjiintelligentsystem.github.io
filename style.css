@@ -6,6 +6,11 @@ body{
     border: none;
 
 }
+.conrainer{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
 .nav-bar{
     width: 100%;
     height: 100px;
@@ -132,4 +137,50 @@ img{
  a{
     text-decoration: none;
     color: #fff;
+}
+@media screen and (max-width:768px){
+    
+    /* style for larger screens*/
+    .conrainer{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+   
+}
+@media screen and (max-width:767px){
+    /* style for medium screens*/
+    
+    .conrainer{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:450px){
+    /* style for smaller screens*/
+    .conrainer{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .nav-ba{
+        width: 30%;
+        height: auto;
+        background-color: aqua;
+    }
+    
 }
